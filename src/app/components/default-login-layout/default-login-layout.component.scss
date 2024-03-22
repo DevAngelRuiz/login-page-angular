@@ -72,6 +72,11 @@ main {
       padding: 12px 0;
       cursor: pointer;
 
+      &:disabled {
+        opacity: 0.5;
+        cursor: not-allowed;
+      }
+
 
 
       &.btn-primary {
